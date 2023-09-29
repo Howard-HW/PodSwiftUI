@@ -1,26 +1,25 @@
 //
-//  ContentView.swift
-//  SwiftUIAppForTutorial
+//  StudyPodMainView.swift
+//  StudyPodProj
 //
-//  Created by Lee HongWon on 2022/12/20.
+//  Created by Lee HongWon on 2023/09/29.
 //
 
 import SwiftUI
 
-struct ContentView: View {
+struct SPMainView: View {
     var body: some View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            Text("This is test for new branch")
+            Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
         }
-        .padding()
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct SPMainView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        SPMainView()
     }
 }
