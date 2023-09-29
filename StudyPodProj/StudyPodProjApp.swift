@@ -9,6 +9,8 @@ import SwiftUI
 
 @main
 struct StudyPodProjApp: App {
+    @UIApplicationDelegateAdaptor(MainAppDelegate.self) var appDelegate
+
     var body: some Scene {
         WindowGroup {
             SPMainView()
