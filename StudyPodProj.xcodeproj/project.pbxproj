@@ -13,7 +13,7 @@
 		7C6971C82AC6A32D00F40993 /* SPMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6971C72AC6A32D00F40993 /* SPMainView.swift */; };
 		7C6971CB2AC6A37600F40993 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6971CA2AC6A37600F40993 /* MainViewModel.swift */; };
 		7C6971CE2AC6A3A700F40993 /* MainAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6971CD2AC6A3A700F40993 /* MainAppDelegate.swift */; };
-		7CAA6B902ACC5AD0004FBDE2 /* NetworkModule in Frameworks */ = {isa = PBXBuildFile; productRef = 7CAA6B8F2ACC5AD0004FBDE2 /* NetworkModule */; };
+		7CA6FEC72ACC68BB0006E19E /* NetworkModule in Frameworks */ = {isa = PBXBuildFile; productRef = 7CA6FEC62ACC68BB0006E19E /* NetworkModule */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +25,7 @@
 		7C6971C72AC6A32D00F40993 /* SPMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPMainView.swift; sourceTree = "<group>"; };
 		7C6971CA2AC6A37600F40993 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		7C6971CD2AC6A3A700F40993 /* MainAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAppDelegate.swift; sourceTree = "<group>"; };
+		7CA6FEC52ACC68B50006E19E /* NetworkModule */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = NetworkModule; sourceTree = "<group>"; };
 		7CAA6B8B2ACC5934004FBDE2 /* NetworkModule */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = NetworkModule; path = ../StudyPodProj/NetworkModule; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -33,7 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CAA6B902ACC5AD0004FBDE2 /* NetworkModule in Frameworks */,
+				7CA6FEC72ACC68BB0006E19E /* NetworkModule in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,6 +109,7 @@
 		7CAA6B8C2ACC5AAB004FBDE2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7CA6FEC52ACC68B50006E19E /* NetworkModule */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -136,7 +138,7 @@
 			);
 			name = StudyPodProj;
 			packageProductDependencies = (
-				7CAA6B8F2ACC5AD0004FBDE2 /* NetworkModule */,
+				7CA6FEC62ACC68BB0006E19E /* NetworkModule */,
 			);
 			productName = StudyPodProj;
 			productReference = 7C6971B42AC6A2E900F40993 /* StudyPodProj.app */;
@@ -411,7 +413,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		7CAA6B8F2ACC5AD0004FBDE2 /* NetworkModule */ = {
+		7CA6FEC62ACC68BB0006E19E /* NetworkModule */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = NetworkModule;
 		};
