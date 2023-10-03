@@ -6,7 +6,13 @@
 //
 
 import Foundation
+import NetworkModule
 
 class MainViewModel {
-    
+    static let shared = MainViewModel()
+    private init() {}
+
+    func getNetworkModuleName() -> String {
+        return NetworkModule().text
+    }
 }
