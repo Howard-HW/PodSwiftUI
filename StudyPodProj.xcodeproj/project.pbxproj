@@ -13,7 +13,7 @@
 		7C6971C82AC6A32D00F40993 /* SPMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6971C72AC6A32D00F40993 /* SPMainView.swift */; };
 		7C6971CB2AC6A37600F40993 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6971CA2AC6A37600F40993 /* MainViewModel.swift */; };
 		7C6971CE2AC6A3A700F40993 /* MainAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6971CD2AC6A3A700F40993 /* MainAppDelegate.swift */; };
-		7CA6FEC72ACC68BB0006E19E /* NetworkModule in Frameworks */ = {isa = PBXBuildFile; productRef = 7CA6FEC62ACC68BB0006E19E /* NetworkModule */; };
+		7CA6FECD2ACC69E50006E19E /* NetworkModule in Frameworks */ = {isa = PBXBuildFile; productRef = 7CA6FECC2ACC69E50006E19E /* NetworkModule */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +26,7 @@
 		7C6971CA2AC6A37600F40993 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		7C6971CD2AC6A3A700F40993 /* MainAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAppDelegate.swift; sourceTree = "<group>"; };
 		7CA6FEC52ACC68B50006E19E /* NetworkModule */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = NetworkModule; sourceTree = "<group>"; };
-		7CAA6B8B2ACC5934004FBDE2 /* NetworkModule */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = NetworkModule; path = ../StudyPodProj/NetworkModule; sourceTree = "<group>"; };
+		7CA6FEC82ACC699C0006E19E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,7 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CA6FEC72ACC68BB0006E19E /* NetworkModule in Frameworks */,
+				7CA6FECD2ACC69E50006E19E /* NetworkModule in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,8 +44,6 @@
 		7C6971AB2AC6A2E900F40993 = {
 			isa = PBXGroup;
 			children = (
-				7CAA6B8B2ACC5934004FBDE2 /* NetworkModule */,
-				7CDFF0162ACC53FC003C27A9 /* Packages */,
 				7C6971B62AC6A2E900F40993 /* StudyPodProj */,
 				7C6971B52AC6A2E900F40993 /* Products */,
 				7CAA6B8C2ACC5AAB004FBDE2 /* Frameworks */,
@@ -63,6 +61,7 @@
 		7C6971B62AC6A2E900F40993 /* StudyPodProj */ = {
 			isa = PBXGroup;
 			children = (
+				7CA6FEC82ACC699C0006E19E /* Info.plist */,
 				7C6971CC2AC6A38F00F40993 /* Delegate */,
 				7C6971C92AC6A35E00F40993 /* ViewModel */,
 				7C6971C62AC6A31200F40993 /* View */,
@@ -114,13 +113,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7CDFF0162ACC53FC003C27A9 /* Packages */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Packages;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,7 +130,7 @@
 			);
 			name = StudyPodProj;
 			packageProductDependencies = (
-				7CA6FEC62ACC68BB0006E19E /* NetworkModule */,
+				7CA6FECC2ACC69E50006E19E /* NetworkModule */,
 			);
 			productName = StudyPodProj;
 			productReference = 7C6971B42AC6A2E900F40993 /* StudyPodProj.app */;
@@ -326,6 +318,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StudyPodProj/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -364,6 +357,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StudyPodProj/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -413,7 +407,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		7CA6FEC62ACC68BB0006E19E /* NetworkModule */ = {
+		7CA6FECC2ACC69E50006E19E /* NetworkModule */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = NetworkModule;
 		};
