@@ -13,7 +13,7 @@ struct SPMainView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+            Text(MainViewModel.shared.getNetworkModuleName())
         }
     }
 }
